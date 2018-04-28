@@ -21,12 +21,3 @@ info:
     name:provider1
 
 
-spring:
-  application:
-    name: first-service-provider-dev
-eureka:
-  client:
-    service-url:
-      defaultZone: http://cloudServerSlave1:8780/eureka/,http://cloudServerSlave2:8781/eureka/
-  instance:
-    prefer-ip-address: true
